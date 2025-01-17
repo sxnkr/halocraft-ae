@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "./components/Copyright";
 
 export default function HomeFooter() {
   return (
@@ -927,7 +928,6 @@ export default function HomeFooter() {
             </div>
           </div>
         </section>
-        =
         <section className="tc-subscribe-st4">
           <div className="container">
             <div
@@ -1008,8 +1008,7 @@ export default function HomeFooter() {
                 <div className="links-group mt-30">
                   <div className="links">
                     <a href="#" className="me-3">
-                      {" "}
-                      FAQ{" "}
+                      FAQ
                     </a>
                     <a href="#" className="me-3">
                       {" "}
@@ -1045,7 +1044,6 @@ export default function HomeFooter() {
                 </div>
               </div>
               <div className="col-lg-4">
-                F
                 <div className="links-group mt-5 mt-lg-0">
                   <h6 className="fsz-18 mb-4"> Address </h6>
                   <ul className="links">
@@ -1069,19 +1067,7 @@ export default function HomeFooter() {
             className="foot-shapes"
           />
         </div>
-        <div className="foot">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <p className="fsz-16 cr-999">
-                Copyright: © 2025 by
-                <a href="#" className="text-white">
-                  Halocraft
-                </a>
-                All Rights Reserved.
-              </p>
-            </div>
-          </div>
-        </div>
+        <Copyright />
       </footer>
     </div>
   );
